@@ -1,0 +1,42 @@
+.main {
+  height: 20vh;
+  width: 20vw;
+  background-color: blue;
+  position: relative;
+  left: 50px;
+  /* position:static; */
+}
+
+.child {
+  height: 20px;
+  width: 80px;
+  background-color: red;
+  position: absolute;
+  right: 50px;
+}
+.box {
+  margin: 20px;
+  padding: 20px;
+}
+
+.box1 {
+  background-color: black;
+  color: bisque;
+  position: fixed;
+
+  top: 5px;
+  right: 300px;
+}
+
+.box2 {
+  background-color: aqua;
+  width: 200px;
+  position: sticky;
+  margin-left: 800px;
+  top: 0px;
+}
+
+.box3 {
+  background-color: green;
+  width: 200px;
+}
