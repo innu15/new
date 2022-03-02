@@ -1,0 +1,52 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: ball;
+  border-radius: 50%;
+  animation-duration: 5s;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+@keyframes ball {
+  0% {
+    background-color: aqua;
+    /* position: relative; */
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+  }
+  25% {
+    background-color: blue;
+    /* position: relative; */
+    top: 600px;
+    left: 400px;
+    height: 100px;
+    width: 100px;
+  }
+  50% {
+    background-color: black;
+    /* position: relative; */
+    top: 0px;
+    left: 800px;
+    height: 200px;
+    width: 200px;
+  }
+  75% {
+    background-color: brown;
+    /* position: relative; */
+    top: 500px;
+    left: 90px;
+    height: 100px;
+    width: 100px;
+  }
+  100% {
+    background-color: green;
+    /* position: relative; */
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+  }
+}
